@@ -1,0 +1,51 @@
+
+.container{
+    max-width: 950px;
+
+}
+.smol{
+    height: 310px;
+
+}
+
+header{
+    align-items: center;
+}
+
+#mainc{
+    width: 900px;
+    height: 70px;
+}
+
+
+ .image{
+    width: 75px;
+    height: 75px;
+    margin: 0px 420px;
+    margin-bottom: 30px;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+ .text{
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.pricetag{
+    color: rgb(155, 154, 154);
+}
+
+.sale{
+    color: rgb(8, 138, 8);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
