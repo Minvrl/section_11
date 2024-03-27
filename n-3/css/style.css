@@ -1,0 +1,109 @@
+.grayish{
+    background-color: #2c3e50;
+}
+
+.navbar {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    line-height: 2.5;
+}
+
+.masthead{
+    height: 790px;
+    background-color: #1abc9c;
+}
+
+.bg-teal{
+    background-color: #1abc9c;
+}
+
+.masthead img{
+    margin-top: 190px !important;
+    width: 250px;
+    height: 250px;
+}
+
+.divider-custom {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+
+.divider-custom-line {
+    flex: 1;
+    height: 3px; 
+    width: 90px;
+    background-color: #ffffff; 
+    margin: 0 10px; 
+}
+
+.divider-dark{
+   color: #000000;
+}
+
+
+.divider-custom-icon {
+    padding: 0 10px; 
+}
+
+#portfolio{
+    padding: 120px 0px;
+}
+
+.portfolio-item {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover::before {
+    opacity: 1;
+}
+
+.portfolio-item:hover {
+    background-color: #13ab10 !important;
+}
+
+.page-section-heading {
+    padding-top: 40px;
+}
+
+.borderless{
+    border-top:none !important ;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+footer{
+    padding: 50px 0px;
+}
+
+.btn-social{
+    border-radius:50% ;
+}
+
+.tealc{
+    color: #1abc9c;
+}

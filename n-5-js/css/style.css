@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tab {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 200px;
+}
+
+.tab p{
+    font-size: 34px;
+}
+
+#Home {
+    background: linear-gradient(135deg, #FF6B6B 0%, #556270 100%);
+
+}
+
+#News {
+    background: linear-gradient(135deg, #5B247A 0%, #1BCEDF 100%);
+
+}
+
+#Contact {
+    background: linear-gradient(135deg, #85D8CE 0%, #085078 100%);
+}
+
+#About {
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+
+}
+
